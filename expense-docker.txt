@@ -1,0 +1,2 @@
+1. need to create mysql server with Dockerfile
+
