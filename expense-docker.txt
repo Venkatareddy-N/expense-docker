@@ -1,2 +1,2 @@
-1. need to create mysql server with Dockerfile
+1. need to create mysql image with Dockerfile
 
