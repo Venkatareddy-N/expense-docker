@@ -1,2 +1,21 @@
 1. need to create mysql image with Dockerfile
 
+mysql -u root -pExpenseApp@1
+
+
+docker run -d --name mysql mysql:v1
+
+
+to create network (bridge network)
+docker network create expense
+
+docker network ls -> list the networks
+
+docker network connect expense mysql
+
+
+
+docker run -d --name backend --network expense backend:v1
+
+cat /etc/release -> to know the DevOps
+
