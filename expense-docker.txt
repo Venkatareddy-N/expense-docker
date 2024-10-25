@@ -78,7 +78,11 @@ docker exec -it 8da07276c75e bash  --> enter inside
 
 docker compose
 ==============
-Docker Compose is a tool for defining and running multi-container applications. It is the key to unlocking a streamlined and efficient development and deployment experience.
+Docker Compose is the way of managing multiple containers at a time, 
+we can up and down the contaisers, 
+we can manage the dependencies,
+we can mention the networks
+we can mention the volumes
 
 docker compose up -d
 
