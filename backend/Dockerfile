@@ -1,10 +1,12 @@
+# this is multi stage build to save the memory
+#this file will create package
 FROM node:20 AS builder
 WORKDIR /opt/server
 COPY package.json .
 COPY *.js .
 RUN npm install
 
-
+# this file will use package
 FROM node:20.18.0-alpine3.20
 EXPOSE 8080
 ENV DB_HOST="mysql"
