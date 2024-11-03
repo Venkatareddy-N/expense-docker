@@ -18,7 +18,7 @@ docker_password
 
 docker build -t venkat2607/mysql:1.0 .
 
-docker push venkat2607/mysql:1.0  --> push your image to docker registry to store yur image in docker hub
+docker push venkat2607/mysql:1.0  --> push your image to docker registry to store your image in docker hub
 
 docker run -d --name mysql venkat2607/mysql:1.0 --> create container from mysql image
 or
