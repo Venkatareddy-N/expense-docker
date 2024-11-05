@@ -16,7 +16,8 @@ services:
     depends_on:
     - mysql
   frontend:
-    image: venkat2607/frontend:1.0
+    #image: venkat2607/frontend:1.0
+    image: joindevops/frontend:v1
     container_name: frontend
     ports:
     - 80:80
